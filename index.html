@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="bill-form">
+        <div class="bill-content">
+          <div class="input-label" id="bill-label">
+            <label for="bill">Bill</label>
+            <span>Can't be zero</span>
+          </div>
+          <input type="number" name="bill" id="input-bill" min="0" value="0" />
+        </div>
+        <div class="bill-content">
+          <label>Select Tip %</label>
+          <form id="button-tip">
+            <div>
+              <input
+                class="radio"
+                type="radio"
+                id="p-5"
+                name="amount-tip"
+                value="0.05"
+                checked
+              />
+              <label for="p-5">5%</label>
+            </div>
+            <div>
+              <input
+                class="radio"
+                type="radio"
+                id="p-10"
+                name="amount-tip"
+                value="0.10"
+              />
+              <label for="p-10">10%</label>
+            </div>
+            <div>
+              <input
+                class="radio"
+                type="radio"
+                id="p-15"
+                name="amount-tip"
+                value="0.15"
+              />
+              <label for="p-15">15%</label>
+            </div>
+            <div>
+              <input
+                class="radio"
+                type="radio"
+                id="p-25"
+                name="amount-tip"
+                value="0.25"
+              />
+              <label for="p-25">25%</label>
+            </div>
+            <div>
+              <input
+                class="radio"
+                type="radio"
+                id="p-50"
+                name="amount-tip"
+                value="0.50"
+              />
+              <label for="p-50">50%</label>
+            </div>
+            <div>
+              <input
+                type="number"
+                name="custom-tip"
+                placeholder="Custom"
+                id="custom-tip"
+                min="0"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="bill-content" id="people-label">
+          <div class="input-label" id="num-label">
+            <label for="num-people"> Number of People </label>
+            <span>Can't be zero</span>
+          </div>
+          <input
+            type="number"
+            name="num-people"
+            id="num-people"
+            min="1"
+            value="1"
+          />
+        </div>
+      </div>
+      <div id="tip">
+        <div class="tip-calculation">
+          <div class="tip-content">
+            <section>
+              <h1>Tip Amount</h1>
+              <h2>/ person</h2>
+            </section>
+            <h1 class="tip-amount">$<span id="tip-person"></span></h1>
+          </div>
+          <div class="tip-content">
+            <section>
+              <h1>Total</h1>
+              <h2>/ person</h2>
+            </section>
+            <h1 class="tip-amount">$<span id="total-tip"></span></h1>
+          </div>
+        </div>
+        <button id="reset">Reset</button>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>

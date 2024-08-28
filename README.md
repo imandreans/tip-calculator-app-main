@@ -14,7 +14,6 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -30,12 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop](./Desktop.png)
+![Mobile](./Mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/imandreans/tip-calculator-app-main)
+- Live Site URL: [live site](https://your-live-site-url.com)
 
 ## My process
 
@@ -45,10 +45,15 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Javascript DOM
 
 ### What I learned
 
+I learned more on implementing Javascript DOM. How each component react to others.
+
 ### Continued development
+
+More on refactoring the javascript DOM.
 
 ### Useful resources
 
